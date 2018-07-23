@@ -1,0 +1,2 @@
+REM Start a new selenium grid node with parameters configured in JSON file
+java -jar selenium-server-standalone-2.52.0.jar -role node -nodeConfig node.json -Dwebdriver.chrome.driver=../chromedriver/chromedriver.exe -Dwebdriver.ie.driver=../iedriver/IEDriverServer.exe
